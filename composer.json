@@ -1,17 +1,22 @@
 {
-  "name": "drupalcommerce/demo_commerce",
-  "type": "drupal-profile",
-  "description": "Demo Commerce 2.x installation profile.",
-  "homepage": "https://github.com/drupalcommerce/demo_commerce",
-  "license": "GPL-2.0+",
-  "require": {
-    "drupal/admin_toolbar": "^2.0",
-    "drupal/belgrade": "1.x-dev",
-    "drupal/commerce": "^2.0",
-    "drupal/commerce_cart_api": "^1.0",
-    "drupal/commerce_cart_flyout": "^1.0",
-    "drupal/commerce_demo": "1.x-dev",
-    "drupal/swiftmailer": "^2.0",
-    "drupal/token": "^1.0"
-  }
+    "name": "miguelapg/demo_commerce",
+    "type": "drupal-profile",
+    "description": "Demo Commerce 2.3.x installation profile.",
+    "homepage": "https://github.com/miguelapg/demo_commerce",
+    "license": "GPL-2.0+",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "require": {
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/belgrade": "^2.0",
+        "drupal/commerce": "^2.39",
+        "drupal/commerce_cart_api": "^1.8",
+        "drupal/commerce_cart_flyout": "^1.11",
+        "drupal/swiftmailer": "^2.0",
+        "drupal/token": "^1.14"
+    }
 }
